@@ -1,5 +1,5 @@
 .card {
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
     padding: 30px;
     margin: 20px;
@@ -63,3 +63,28 @@ font-size: 20px;
     font-size: 15px;
     
        }
+
+       hr{
+        border: 0;
+	border-top: 1px solid #9acddc;
+    width: 305px;
+    margin-left: -300px;
+       }
+
+
+    .img2{
+        width: 70px;
+        height: 70px;
+        margin-top: 30px;
+        margin-left: -300px;
+    }
+
+    .a5{
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: -50px;
+        color: #9acddc;
+        text-align: justify;
+        width: 300px;
+        margin-left: -215px;
+    }
