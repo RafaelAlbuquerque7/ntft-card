@@ -8,6 +8,14 @@
     transition: all 0.3s ease-out;
     background-color: #20425e;
     display: flex;
+    margin-top: 160px;
+    transition-duration: 1s;
+  }
+
+  .card:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+
   }
 
   .centro {
@@ -18,10 +26,18 @@
   }
 
   .img{
-
+border-radius: 10px;
     width: 300px;
     height: 300px;
+    transition-duration: 4s;
    }
+
+   .img:hover{
+    filter: brightness(50%);
+    transition-duration: 4s;
+    background-image: url("img/favicon-32x32.png");
+       }
+
 
    .a1{
 margin-top: 305px;
@@ -32,8 +48,13 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 20px;
    }
 
+   .a1:hover{
+    color: hsl(178, 100%, 50%);
+    transition-duration: 4s
+   }
+
    .a2{
-    margin-top: 330px;
+    margin-top: 340px;
  
     margin-left: -300px;
     color: #9acddc;
@@ -88,3 +109,12 @@ font-size: 20px;
         width: 300px;
         margin-left: -215px;
     }
+    .aaaa{
+      color: white;
+    }
+
+    .aaaa:hover{
+      color: hsl(178, 100%, 50%);
+    transition-duration: 4s
+    }
+
